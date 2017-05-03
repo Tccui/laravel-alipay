@@ -1,6 +1,6 @@
 {
     "name": "ctc/alipay",
-    "description": "支付宝支付",
+    "description": "集成支付宝支付",
     "type": "library",
     "license": "MIT",
     "authors": [
