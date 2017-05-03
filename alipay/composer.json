@@ -1,0 +1,24 @@
+{
+    "name": "root/laravel-alipay",
+    "description": "支付宝支付",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tc",
+            "email": "571121319@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*",
+        "illuminate/events": "5.*",
+        "illuminate/config": "5
+    },
+    "autoload": {
+        "psr-4": {
+            "Ali\\Alipay\\": "src/Latrell/Alipay/"
+        }
+    }
+}
