@@ -1,8 +1,8 @@
 <?php
 
-namespace Ford\Escape;
+namespace Test\Bens;
 
-class Escape2016
+class bmw
 {
     public static function info()
     {

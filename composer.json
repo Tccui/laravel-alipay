@@ -1,12 +1,12 @@
 {
-    "name": "victorruan/composer-car",
+    "name": "ctc/firstpackage",
     "description": "This a demo for build composer packagist .",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "阮佳佳",
-            "email": "250069802@qq.com"
+            "name": "Tc",
+            "email": "571121319@qq.com"
         }
     ],
     "minimum-stability": "dev",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ford\\Escape\\": "src/Ford/Escape"
+            "Test\\Bens\\": "src/Test/Bens"
         }
     }
 }
