@@ -1,6 +1,6 @@
 {
-    "name": "ctc/firstpackage",
-    "description": "This a demo for build composer packagist .",
+    "name": "ctc/alipay",
+    "description": "支付宝支付",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Test\\Bens\\": "src/Test/Bens"
+            "Alipay\\": "src/Alipay/"
         }
     }
 }
