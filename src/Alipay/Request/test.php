@@ -1,6 +1,6 @@
 <?php
 namespace Alipay\Request;
-class test(){
+class test{
     echo 'test';
 }
 ?>
