@@ -1,24 +1,21 @@
 {
-    "name": "root/laravel-alipay",
-    "description": "支付宝支付",
+    "name": "victorruan/composer-car",
+    "description": "This a demo for build composer packagist .",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Tc",
-            "email": "571121319@qq.com"
+            "name": "阮佳佳",
+            "email": "250069802@qq.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "5.*",
-        "illuminate/events": "5.*",
-        "illuminate/config": "5.*"
+        "php": ">=5.4"
     },
     "autoload": {
         "psr-4": {
-            "Ali\\Alipay\\": "src/Latrell/Alipay/"
+            "Ford\\Escape\\": "src/Ford/Escape"
         }
     }
 }
