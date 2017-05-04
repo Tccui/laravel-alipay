@@ -4,7 +4,7 @@ namespace Alipay\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class AlipayMobile extends Facade
+class AlipayAopClient extends Facade
 {
 
 	/**
@@ -14,6 +14,6 @@ class AlipayMobile extends Facade
 	 */
 	protected static function getFacadeAccessor()
 	{
-		return 'alipay.mobile';
+		return 'alipay.AopClient';
 	}
 }

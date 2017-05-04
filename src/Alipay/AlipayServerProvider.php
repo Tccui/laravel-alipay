@@ -51,12 +51,18 @@ class AlipayServiceProvider extends ServiceProvider
 	public function register()
 	{
 		
-		$this->app->bind('alipay.mobile', function ($app)
+		$this->app->bind('alipay.AopClient', function ($app)
 		{
-			$alipay = new Request\test();
+			$class = new AopClient();
 
-			return $alipay;
+			return $class;
 		});
+                $this->app->bind('alipay.TradeAppPayRequest', function ($app)
+                {
+                        $class = new Request\AlipayTradeAppPayRequest();
+
+                        return $class;
+                });
 
 		
 	}
@@ -69,7 +75,8 @@ class AlipayServiceProvider extends ServiceProvider
 	public function provides()
 	{
 		return [
-			'alipay.mobile'
+                        'alipay.AopClient',
+                        'alipay.TradeAppPayRequest'
 		];
 	}
 }
