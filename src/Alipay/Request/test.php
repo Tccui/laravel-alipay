@@ -1,6 +1,8 @@
 <?php
 namespace Alipay\Request;
 class test{
-    echo 'test';
+    public function test(){
+        return time();
+    }
 }
 ?>
